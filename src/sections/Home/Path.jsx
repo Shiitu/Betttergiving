@@ -15,7 +15,7 @@ const Path = () => {
     description: "Donate to any nonprofit, anywhere in the world. Support local grassroots organizations who understand the problems on the ground",
     img_src: "/card_2_image_1.png",
   }, {
-    title: "Impact Tracking and Transparency",
+    title: "Impact Tracking and Clarity",
     description: "Our platform empowers donors with transparency, offering detailed information on how each charitable organization utilizes contributions to drive impactful change",
     img_src: "/card_3_image_1.png",
   },
