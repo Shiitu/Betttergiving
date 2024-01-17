@@ -66,14 +66,14 @@ const HeroBottom = () => {
       <div className='bg_blur'></div>
       <div className='absolute bottom-[-50%] right-[-20%] w-[60%] h-[80%] rounded-full bg-[#fdefd1]  z-[-12] blur-[450px]'></div>
 
-      <div className='flex flex-col items-center gap-14 mt'>
+      <div className='flex flex-col items-center gap-14'>
         <span className='flex flex-col items-center gap-2 '>
           <h3 className='text-lg uppercase font-bold text-[#2D89C8] Quicksand text-[13px] md:text-[18px] mt-[-20px]'>Bridge to better</h3>
           <h2 className='text-[32px] md:text-[42px] lg:w-full md:w-8/12 text-center uppercase font-bold text-[#183244] Quicksand'>Connecting Donors to Causes That Matter</h2>
         </span>
         <div className='flex gap-7'>            
         <div className='hidden md:block lg:hidden absolute bg-white h-full w-1/2 z-[8] left-[-20%] blur-[100px] rounded-full'></div>
-        <button className='p-3 bg-white rounded-full border border-solid shadow self-center cause-prev  absolute top-[50%] left-[2%] z-10 hidden md:block'>
+        <button className='p-3 bg-white rounded-full border border-solid shadow self-center cause-prev  absolute top-[50%] left-[8%] z-10 hidden md:block'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-[#2D89C8] w-[24px] h-[24px] font-bold">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
             </svg>
@@ -123,7 +123,7 @@ const HeroBottom = () => {
           <SwiperSlide className=''></SwiperSlide> */}
           {/* <SwiperSlide className='lg:hidden'></SwiperSlide> */}
           </Swiper>
-        <button className='p-3  bg-white rounded-full border border-solid z-10 shadow self-center cause-next absolute top-[50%] right-[2%] hidden md:block'>
+        <button className='p-3  bg-white rounded-full border border-solid z-10 shadow self-center cause-next absolute top-[50%] right-[10%] hidden md:block'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="text-[#2D89C8] w-[24px] h-[24px] font-bold ">
                 <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
             </svg>
