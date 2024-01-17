@@ -1,6 +1,8 @@
 import React from 'react'
 import Card from './Card'
 import Button from './Button'
+import "./../styles/hero.css"
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -47,7 +49,7 @@ const HeroBottom = () => {
   ]
 
   return (
-    <div className='relative bottom-[350px] z-10 pt-[150px] px-[24px]'>
+    <div className='relative bottom-[350px] z-10 pt-[150px] px-[24px] marginTop-[-20px]'>
       <img src="/map.png" alt="map" className='absolute bottom-[-10%] left-0 -z-10'/>
       <svg viewBox="0 0 1440 1533" fill="none" xmlns="http://www.w3.org/2000/svg" className='absolute top-0 left-0 z-[-8] overflow-hidden w-full h-full'>
         <g opacity="0.2" filter="url(#filter0_f_443_2773)">
@@ -64,9 +66,9 @@ const HeroBottom = () => {
       <div className='bg_blur'></div>
       <div className='absolute bottom-[-50%] right-[-20%] w-[60%] h-[80%] rounded-full bg-[#fdefd1]  z-[-12] blur-[450px]'></div>
 
-      <div className='flex flex-col items-center gap-14'>
+      <div className='flex flex-col items-center gap-14 mt'>
         <span className='flex flex-col items-center gap-2 '>
-          <h3 className='text-lg uppercase font-bold text-[#2D89C8] Quicksand text-[13px] md:text-[18px]'>Bridge to better</h3>
+          <h3 className='text-lg uppercase font-bold text-[#2D89C8] Quicksand text-[13px] md:text-[18px] mt-[-20px]'>Bridge to better</h3>
           <h2 className='text-[32px] md:text-[42px] lg:w-full md:w-8/12 text-center uppercase font-bold text-[#183244] Quicksand'>Connecting Donors to Causes That Matter</h2>
         </span>
         <div className='flex gap-7'>            

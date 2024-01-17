@@ -3,6 +3,9 @@ import JoinUsBanner from '../../components/JoinUsBanner'
 import BenefitssCrousal from '../../components/BenefitssCrousal'
 import Crousal from '../../components/Crousal'
 import Button from '../../components/Button'
+import "../../styles/hero.css"
+
+
 
 const Path = () => {
   const [path, setPath] = useState("non-profits")
@@ -37,8 +40,8 @@ const Path = () => {
   ])
 
   return (
-    <section className='px-[24px] lg:p-[128px] md:p-[30px] pt-0 flex flex-col gap-[42px] mt-[-200px]'>
-      <div className='flex flex-col gap-[42px]'>
+    <section className='px-[24px] lg:p-[128px] md:p-[30px] pt-0 flex flex-col gap-[42px] mt-[-200px] ' >
+      <div className='flex flex-col gap-[42px] mp' >
         <span className='flex flex-col items-center gap-2 '>
           <h3 className='text-[13px] md:text-[18px] uppercase font-bold text-[#2D89C8] Quicksand'>Bridge to better</h3>
           <h2 className='text-[32px] md:text-[42px] uppercase font-bold text-[#183244] lg:max-w-[50%] md:max-w-full text-balance mx-auto text-center Quicksand'>With Better Giving-Empower, Engage and Elevate</h2>

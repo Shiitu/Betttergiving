@@ -9,7 +9,7 @@ const JoinUsBanner = () => {
       </div>
       <span className='z-10 mb-[48px]'>
         <p className='text-lg font-bold uppercase text-white'>Fueling Dreams</p>
-        <p className='text-[24px] md:text-[42px] font-bold uppercase lg:max-w-[60%] md:w-full text-white'>Together, we can change the world for good</p>
+        <p className='text-[24px] md:text-[42px] font-bold uppercase lg:max-w-[80%] md:w-full text-white'>Together, we can change the world for good</p>
       </span>
       <button className='z-10 px-[78px] py-[24px] bg-white whitespace-nowrap rounded-[40px] font-bold text-2xl text-[#2D8AC8]'>Join Us 
       

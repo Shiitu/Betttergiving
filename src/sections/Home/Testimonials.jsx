@@ -37,7 +37,7 @@ const Testimonials = () => {
   <path opacity="0.4" fill-rule="evenodd" clip-rule="evenodd" d="M-186.87 150.179C-171.375 144.719 -154.386 152.856 -148.926 168.354C-113.43 269.088 -3.00679 321.979 97.7107 286.489C198.428 250.999 251.301 140.567 215.805 39.8331C210.344 24.3355 218.478 7.34603 233.973 1.88603C249.468 -3.57398 266.456 4.56309 271.917 20.0607C318.335 151.79 249.194 296.201 117.486 342.611C-14.221 389.021 -158.62 319.856 -205.038 188.126C-210.499 172.629 -202.365 155.639 -186.87 150.179Z" fill="#D8E9FD"/>
 </svg>
             <img src='/quotation.svg' alt="quotation mark" className='h-[100px] w-[100px] m-auto' />
-            <h2 className='lg:max-w-[50%] mx-auto text-center text-balance text-[42px] font-bold Quicksand'>Amazing stories from our customers</h2>
+            <h2 className='lg:max-w-[50%] mx-auto text-center text-balance text-[42px] font-bold Quicksand'>Amazing stories from <br/>our customers</h2>
             <div className='hidden lg:flex justify-center gap-[18px] relative'>
             {
                 testimonials.map((ele, i)=>{

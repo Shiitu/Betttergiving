@@ -36,6 +36,9 @@
 }
 
 /*  Hero.jsx  */
+.marginneg{
+    margin-top: -20ox;
+}
 .bg_blur {
     position: absolute;
     top: 0;

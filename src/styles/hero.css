@@ -70,3 +70,9 @@ font-style: normal;
 font-weight: 700;
 line-height: 142%; /* 28.4px */
 }
+.mt {
+    margin-top: -50px;
+  }
+.mp{
+    margin-top: -100px;
+}
