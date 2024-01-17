@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import Button from '../../components/Button'
-// import "./styles/hero.css"
 
 
 const Video = () => {
