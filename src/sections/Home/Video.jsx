@@ -54,7 +54,7 @@ const Video = () => {
                     </button>
                     <span className='absolute lg:left-[-10px] md:left-[50px] lg:bottom-[-10px] md:bottom-[-90%] text-[42px] w-[200px] h-[200px] circle hidden md:block'>
 
-                        <span className='uppercase text-lg font-bold rotating-text absolute top-[40%] left-[-45%]'>
+                        <span className='uppercase text-lg font-bold rotating-text absolute top-[40%] left-[-4%]'>
                             <strong className='absolute top-[40%] left-[25%] text-[72px]'>
                                 💙
                             </strong>
